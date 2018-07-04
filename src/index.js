@@ -1,8 +1,33 @@
-// import { getObjectType } from './utils';
+import moment from 'moment';
 
 const DATE_TIME_UTILS = (() => {
-  return {
 
+  isSameDate: (dateA, dateB) => {
+
+  }
+
+  isSameWeek: (dateA, dateB) => {
+
+  }
+
+  isSameMonth: (dateA, dateB) => {
+
+  }
+
+  isSameYear: (dateA, dateB) => {
+
+  }
+
+  switchTimezone: (date, timezone, isChangeDate = false) => {
+
+  }
+
+  getWeekNum: (date) => {
+
+  }
+
+  return {
+    isSameDate
   };
 })();
 
