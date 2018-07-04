@@ -1,10 +1,9 @@
-const defaultAwesomeFunction = (name) => {
-  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
-  return returnStr;
-};
+// import { getObjectType } from './utils';
 
-const awesomeFunction = () => 'I am just an Awesome Function';
+const DATE_TIME_UTILS = (() => {
+  return {
 
-export default defaultAwesomeFunction;
+  };
+})();
 
-export { awesomeFunction };
+export default DATE_TIME_UTILS;
